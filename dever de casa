@@ -4,9 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>agencia de viagens</title>
 </head>
+<p style="color: blue; front-size:16px;"> este paragrafo tera texto azul  e tamanho 16px. </p>
+
 <body>
-    
+    <div class="container">
+        <section>
+            <h1>agencia de viagens </h1>
+            <h2>areoporto</h2>
+        </section>
+    </div>
+
 </body>
+</styl>
 </html>
