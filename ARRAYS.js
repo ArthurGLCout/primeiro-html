@@ -17,6 +17,19 @@ const lista = [
      "leite"   ,  [3]
  
 ]
-
-
+     console.log(lista);
 */
+
+// array e objeto 
+
+const pessoa =["joão", "oliveira", 25]; // array
+const pessoa1 =(nome: "joão", sobrenome:"oliveira", 25, "programador"); // objeto
+
+//alert(pessoa.length +1); 
+
+pessoa.push("front end") 
+console.log(pessoa)
+alert(pessoa[3])
+//alert(array.jsarray(pessoal)); verificar se é uma matrix 
+ 
+
