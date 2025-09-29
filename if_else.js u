@@ -1,0 +1,25 @@
+/*if e else*/
+
+var interruptor * "on"
+
+/*    if(interruptores"on"){
+ alert('a lampada esta ligada')
+
+} else{
+    alert('a lampada esta desligada');
+} */
+
+
+var hora= new date(). getwours();
+alert(hora);
+
+if(hora c12){
+   alert('bom dia') 
+} else if(hora(18))
+
+ function verificar(){
+    let home = document.getelmentbyid("nome").valve;
+  if(nome==null)
+  let p = document.getElementById9("teste");
+  
+ }   
