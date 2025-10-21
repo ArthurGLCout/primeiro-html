@@ -1,70 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>site html</title>
+    <title>Minha To Do List</title>
+    <!--CSS do Projeto-->
+    <link rel="stylesheet" href="/css/styles.css">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Scripts JS-->
+    <script src="/js/script.js" defer></script>
 </head>
-<p style="color: blue; font-size: 16px;">Este parágrafo terá texto azul e tamanho 16px.</p>
-<link rel="stylesheet" type="text/css" href="../meusite/css/estilos.css">
-
 <body>
-  <div class="container">
-    <section>   
-<h1>botafogo</h1>
-<h2>
-MELHOR SAF DO MUNDO     
-</h2>
-<h3>    
- JA FOI INDICADO PARA A LISTA DOS DOZE MELHORES TIMES DO SECULO 2000 
-</h3>
-<h4>
- EM 1968 GANHOU A HONRARIA DE TRIPLICE COROA  
-</h4>
-<h5>
-O BOTAFOGO FOI O TIME BRASILEIRO QUE MAIS CEDEU JOGADORES PARA SELEÇÃO BRASIELIRA PARA A COPA DO MUNDO 47 jogadores cedidos     
-</h5>
-<h6>
- melhor clube do brasil indicado pela baloon o door que e organizado pela  france football   
-</h6>
-</div> 
-</section> 
-<button type="button">
- <img src="images/download.jpg" alt="escudo do botafogo" title="Escudo do Botafogo">
-</button>
+    <div class="todo-container">
+        <header>
+            <h1>Minha Lista de Tarefas com JS</h1>
+        </header>
+        <form id="todo-form">
+            <p>Adicione a sua tarefa:</p>
+            <div class="form-control">
+                <input type="text" id="todo-input" placeholder="O que você vai fazer">
+                <button type="submit">
+                    <i class="fa-thin fa-plus"></i>
+                </button>
+            </div>
+        </form>
+        <form id="edit-form">
+            <p>Edite a sua tarefa:</p>
+            <div class="form-control">
+                <input type="text" id="edit-input" />
+                <button type="submit">
+                    <i class="fa-solid fa-check-double"></i>
+            </button>
+            </div>
+            <button id="cancel-edit-btn">Cancelar</button>
+        </form>
+        <div id="toolbar">
+            <div id="search">
+                <h4>Pesquisar:</h4>
+                <form>
+                    <input type="text" id="search-input" placeholder="Buscar">
+                    <button id="erase-button">
+                        <i class="fa-solid fa-delete-left"></i>
+                    </button>
+                </form>
+            </div>
+            <div id="filter">
+                <h4>Filtrar</h4>
+                <select id="filter-select">
+                    <option value="all">Todos</option>
+                    <option value="done">Feitos</option>
+                    <option value="todo">A Fazer</option>
+                </select>
+            </div>
+        </div>
+        <div id="todo-list">
+            <div class="todo">
+                <h3>Estou fazendo alguma coisa...</h3>
+                <button class="finish-todo"> 
+                    <i class="fa-solid fa-check"></i>
+                </button>
+                <button class="edit-todo"> 
+                    <i class="fa-solid fa-pen"></i>
+                </button>
+                <button class="remove-todo"> 
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+        </div>
+    </div>
 </body>
- <futher>
-for further details, please visit our website(para mais detalhes, por favor, viste a pagina do botafogo na wikipedia)
-<table> width=device-width, initial-scale= 2.0
-    <tread>
-        <tr>
-                <th>Nome</th>
-                <th>Idade</th>
-                <th>Cidade</th>
-            </tr>
-        </thead>
-        <body>
-            <tr>
-                <td>João</td>
-                <td>25</td>
-                <td>São Paulo</td>
-            </tr>
-            <tr>
-                <td>Maria</td>
-                <td>30</td>
-                <td>Rio de Janeiro</td>
-            </tr>
-            <tr>
-                <td>Carlos</td>
-                <td>28</td>
-                <td>Belo Horizonte</td>
-            </tr>
-    </tread>
-    
-
-</table>
- </futher>
-
-
-
 </html>
